@@ -1,4 +1,4 @@
-function multiplication(...numbers) {
+function summation(...numbers) {
     let result = 1;
     for(i in numbers) {
         result*=numbers [i];
@@ -7,4 +7,4 @@ function multiplication(...numbers) {
     return result;
 }
 
-multiplication(1,2,3,4,5,6,7,8,9);
+summation(1,2,3,4,5,6,7,8,9);
