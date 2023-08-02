@@ -1,11 +1,31 @@
-#başlık
-##küçük en fazla altı tane
+# Hello This Repository Is About My Learning of Html, Css and JS While Learning Git
 
-****kalın**
-<br/> satır boşluğu
-**italik****
+## Html
 
-`git code`
+### başlık 2 alt
+
+#### başlık
+
+</br>
+
+## Css
+
+### başlık 2 alt
+
+#### başlık
+
+</br>
+
+## JS
+
+### başlık 2 alt
+
+#### başlık
+
+**kalın** </br>
+_italik_
+
+`git pull`
 
 [google linki](https://www.google.com.tr)
 
