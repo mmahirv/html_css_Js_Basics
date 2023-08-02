@@ -2,4 +2,6 @@ var a = "name";
 
 //rebase kavramı
 
-//stash1
+//stash13
+//asdf
+//asdga4
