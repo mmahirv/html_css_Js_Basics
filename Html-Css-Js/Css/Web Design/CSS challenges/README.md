@@ -35,3 +35,12 @@
 - [x] Overflow hidden
 - [x] The same height div boxes in container with float
 - [x] position absolute
+
+## Challenge 4: 2 Columns with a header and footer
+
+# Content
+
+- [x] Float
+- [x] Overflow hidden
+- [x] The same height div boxes in container with float
+- [x] position absolute
