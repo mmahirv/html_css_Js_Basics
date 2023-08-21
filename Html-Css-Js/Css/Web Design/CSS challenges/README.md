@@ -26,3 +26,12 @@
 - [x] box-sizing
 - [x] container 70% witdh and margin auto
 - [x] border
+
+## Challenge 3: 2-column layout
+
+# Content
+
+- [x] Float
+- [x] Overflow hidden
+- [x] The same height div boxes in container with float
+- [x] position absolute
