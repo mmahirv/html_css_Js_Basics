@@ -18,3 +18,11 @@
 - [x] Pseudo element ::firs-letter
 - [x] list-style
 - [x] font-size- font-style
+
+## Challenge 2:A: Shakespeare's Sonnet
+
+# Content
+
+- [x] box-sizing
+- [x] container 70% witdh and margin auto
+- [x] border
