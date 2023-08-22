@@ -40,7 +40,16 @@
 
 # Content
 
-- [x] Float
-- [x] Overflow hidden
-- [x] The same height div boxes in container with float
-- [x] position absolute
+- [x] Css selectors >
+- [x] Inline block
+- [x] Position relative
+
+## Challenge 5: Gimme some whitespace
+
+# Content
+
+- [x] css \*
+- [x] filter blur
+- [x] text decoration
+- [x] line-height
+- [x] clear: both
