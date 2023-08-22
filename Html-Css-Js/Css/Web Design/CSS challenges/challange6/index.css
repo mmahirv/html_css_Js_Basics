@@ -79,6 +79,7 @@ p {
 .dateheader + p {
   font-size: 2em;
   color: darkorange;
+  font-weight: bold;
 }
 
 .postfooter {
