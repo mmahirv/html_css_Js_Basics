@@ -53,3 +53,24 @@
 - [x] text decoration
 - [x] line-height
 - [x] clear: both
+
+## Challenge 5: Gimme some whitespace
+
+# Content
+
+- [x] css \*
+- [x] filter blur
+- [x] text decoration
+- [x] line-height
+- [x] clear: both
+
+## Challenge 6: The Headline Challenge
+
+# Content
+
+- [x] no given design creativeness work
+- [x] css import font family
+- [x] ::before psudo element
+- [x] linear-gradient and radial-gradient
+- [x] transform -translate and rotate
+- [x] box-shadow
