@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  grid-template: repeat(4, 200px) / repeat(12, 50px);
+  gap: 10px;
+  height: 100%;
+  grid-template-areas:
+    "h h h h h h h h h h m m"
+    "c c c c c c c c c c m m"
+    "c c c c c c c c c c m m"
+    "f f f f f f f f f f m m";
+  place-content: center;
+}
+
+div {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  grid-area: h;
+  background: red;
+}
+
+.content {
+  grid-area: c;
+  background: green;
+}
+
+.menu {
+  grid-area: m;
+  background: yellow;
+}
+
+.footer {
+  grid-area: f;
+  background: blue;
+}
