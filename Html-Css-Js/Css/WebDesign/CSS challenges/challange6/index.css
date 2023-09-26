@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(
+      135deg,
+      rgba(224, 107, 53, 0.1),
+      rgba(228, 231, 66, 0.2),
+      rgba(72, 231, 66, 0.3),
+      rgba(66, 231, 217, 0.4),
+      rgba(69, 66, 231, 0.5),
+      rgba(231, 66, 168, 0.6)
+    ),
+    url(modernart.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+div#wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+
+.thepost {
+  width: 100%;
+  background: radial-gradient(rgb(100, 100, 100), transparent);
+  box-shadow: 0 0 10px 10px rgb(100, 100, 100);
+  border-radius: 50px;
+  padding: 3%;
+  transform: rotate(346deg);
+}
+
+.thepost > *:not(.postfooter) {
+  margin-bottom: 3%;
+}
+
+.posttitle {
+  font-family: "Black Ops One", cursive;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+h2.dateheader {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: medium;
+}
+
+p {
+  font-family: "Aguafina Script";
+}
+
+.dateheader + p {
+  font-size: 2em;
+  color: darkorange;
+  font-weight: bold;
+}
+
+.postfooter {
+  font-size: 1.6em;
+  color: aliceblue;
+}

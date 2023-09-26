@@ -49,3 +49,12 @@
 - [x] filter with blur
 - [x] transform with rotate
 - [x] box shadow
+
+## Learn CSS Flexbox
+
+# Content
+
+- [x] display flex -> flex direction
+- [x] flex-wrap -> justify-content and align-items
+- [x] gap
+- [x] object-fit -> for raito distribution

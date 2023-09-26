@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  position: relative;
+  margin: -1px;
+  padding: 9% 5%;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  filter: blur(0.7px);
+}
+
+a {
+  color: #bdaf9a;
+  text-decoration: none;
+}
+
+#header {
+  overflow: hidden;
+  margin-bottom: 3em;
+}
+
+#header > blockquote {
+  float: right;
+  margin: -1px;
+  display: block;
+  width: 65%;
+  line-height: 5em;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2.3em;
+}
+
+#logo {
+  float: left;
+  width: 30%;
+}
+
+#logo > h1 {
+  display: none;
+}
+
+#content {
+  clear: both;
+}
+
+#content-side {
+  float: left;
+  width: 35%;
+  line-height: 1.5em;
+}
+
+#content-side dt {
+  font-size: 1.3em;
+}
+
+#content-side dd {
+  padding-left: 1em;
+}
+
+#content-main {
+  float: right;
+  width: 65%;
+  text-align: justify;
+  padding: 0 3%;
+}
+
+#content-main > *:not(#content-main h2) {
+  margin: 3% 0px;
+}
